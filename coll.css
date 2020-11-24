@@ -1,0 +1,26 @@
+.manu{ width:25%;
+float:left;
+height:1000px;
+
+display:block;
+font-size:30px;
+}
+.manu a:hover{color:black;}
+ul{ list-style-type: none;}
+.manu a{text-decoration:none; color:white;}
+
+.main{width:70%
+float:right;
+height:1000px;
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 15px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
